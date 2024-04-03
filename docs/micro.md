@@ -13,14 +13,14 @@
 |---------------------------- |------------------------------------------------------------------------------------------ |
 | Arrows                      | Move the cursor around                                                                    |
 | Shift-arrows                | Move and select text                                                                      |
-| Alt(Ctrl on Mac)-LeftArrow  | Move to the beginning of the current line                                                 |
-| Alt(Ctrl on Mac)-RightArrow | Move to the end of the current line                                                       |
+| Alt-LeftArrow  | Move to the beginning of the current line                                                 |
+| Alt-RightArrow | Move to the end of the current line                                                       |
 | Home                        | Move to the beginning of text on the current line                                         |
 | End                         | Move to the end of the current line                                                       |
-| Ctrl(Alt on Mac)-LeftArrow  | Move cursor one word left                                                                 |
-| Ctrl(Alt on Mac)-RightArrow | Move cursor one word right                                                                |
-| Alt-<L curly brace>                      | Move cursor to previous empty line, or beginning of document                              |
-| Alt-<R curly brace>                       | Move cursor to next empty line, or end of document                                        |
+| Ctrl-LeftArrow  | Move cursor one word left                                                                 |
+| Ctrl-RightArrow | Move cursor one word right                                                                |
+| Alt-(L curly brace)                      | Move cursor to previous empty line, or beginning of document                              |
+| Alt-(R curly brace)                       | Move cursor to next empty line, or end of document                                        |
 | PageUp                      | Move cursor up one page                                                                   |
 | PageDown                    | Move cursor down one page                                                                 |
 | Ctrl-Home or Ctrl-UpArrow   | Move cursor to start of document                                                          |
@@ -56,10 +56,10 @@
 
 | Key                                 | Description of function                   |
 |------------------------------------ |------------------------------------------ |
-| Ctrl(Alt on Mac)-Shift-RightArrow   | Select word right                         |
-| Ctrl(Alt on Mac)-Shift-LeftArrow    | Select word left                          |
-| Alt(Ctrl on Mac)-Shift-LeftArrow    | Select to start of current line           |
-| Alt(Ctrl on Mac)-Shift-RightArrow   | Select to end of current line             |
+| Ctrl-Shift-RightArrow   | Select word right                         |
+| Ctrl-Shift-LeftArrow    | Select word left                          |
+| Alt-Shift-LeftArrow    | Select to start of current line           |
+| Alt-Shift-RightArrow   | Select to end of current line             |
 | Shift-Home                          | Select to start of current line           |
 | Ctrl-Shift-UpArrow                  | Select to start of file                   |
 | Shift-End                           | Select to end of current line             |
