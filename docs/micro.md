@@ -19,8 +19,8 @@
 | End                         | Move to the end of the current line                                                       |
 | Ctrl(Alt on Mac)-LeftArrow  | Move cursor one word left                                                                 |
 | Ctrl(Alt on Mac)-RightArrow | Move cursor one word right                                                                |
-| Alt-{                       | Move cursor to previous empty line, or beginning of document                              |
-| Alt-}                       | Move cursor to next empty line, or end of document                                        |
+| Alt-\{                       | Move cursor to previous empty line, or beginning of document                              |
+| Alt-\}                       | Move cursor to next empty line, or end of document                                        |
 | PageUp                      | Move cursor up one page                                                                   |
 | PageDown                    | Move cursor down one page                                                                 |
 | Ctrl-Home or Ctrl-UpArrow   | Move cursor to start of document                                                          |
