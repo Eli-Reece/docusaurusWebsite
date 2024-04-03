@@ -1,4 +1,4 @@
-# Random notes
+# Random
 ### helpful links
 - https://explainshell.com/
 ### File retrieval after rm
@@ -73,14 +73,16 @@ $ grep "<string>" /tmp/myfile
 ```
 $ sudo find /home/innoeli/Desktop/cfc400/trunk/ -type f -name "*.sh" -exec dos2unix {} +
 ```
-### Replace a string (foo with bar) in multiple files
-sed -i 's|foo|bar|g' *
-or 
-find . -type f -name "*.sh" -exec sed -i 's/foo/bar/g' {} +
+### String replacement in multiple files
+> sed -i 's|foo|bar|g' *
 
-// convert ' ' to '_' in a c file
-char *p = logfilename;
-for(;*p;++p){ if ( *p == ' ' ) { *p = '_' } };
+or
+
+>find . -type f -name "*.sh" -exec sed -i 's/foo/bar/g' {} +
+
+convert ' ' to '_' in a c file
+> char *p = logfilename;
+> for(;*p;++p){ if ( *p == ' ' ) { *p = '_' } };
 
 ### symbolic link
 ```
