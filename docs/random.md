@@ -69,7 +69,7 @@ $ grep "<string>" /tmp/myfile
 - dos2unix *.sh
 ---
 
-### finding and executing a comand to multiple files in a dir
+### finding and executing a command to multiple files in a dir
 ```
 $ sudo find /home/innoeli/Desktop/cfc400/trunk/ -type f -name "*.sh" -exec dos2unix {} +
 ```
@@ -81,8 +81,10 @@ or
 >find . -type f -name "*.sh" -exec sed -i 's/foo/bar/g' {} +
 
 convert ' ' to '_' in a c file
-> char *p = logfilename;
-> for(;*p;++p){ if ( *p == ' ' ) { *p = '_' } };
+```
+char *p = logfilename;
+for(;*p;++p){ if /( *p == ' ' ) { *p = '_' } };
+```
 
 ### symbolic link
 ```
