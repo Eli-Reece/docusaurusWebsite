@@ -71,7 +71,7 @@ $ grep "<string>" /tmp/myfile
 
 ### finding and executing a command to multiple files in a dir
 ```
-$ sudo find /home/innoeli/Desktop/cfc400/trunk/ -type f -name "*.sh" -exec dos2unix {} +
+$ sudo find /home/eli/Desktop/dev/trunk/ -type f -name "*.sh" -exec dos2unix {} +
 ```
 ### String replacement in multiple files
 > sed -i 's|foo|bar|g' *

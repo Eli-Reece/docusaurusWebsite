@@ -24,13 +24,13 @@ MACHINE_NAME -> zcu102-rev1.0
 ---
 ## Custom Application
 ```
-petalinux-create -t apps --template c --name onewebrmap --enable
+petalinux-create -t apps --template c --name bramex --enable
 ```
 - add files
 - edit makefile
 - edit .bb
 ```
-petalinux-build -c onewebrmap
+petalinux-build -c bramex
 ```
 ---
 ## Kernel Config
@@ -58,6 +58,7 @@ Image Features
 ```
 - issue when running under the "petalinux" user account where access to /dev/mem/ is blocked
 	- enabling auto-login (root) fixed but is an "unsecure" solution
+    - not for production + idc 
 ---
 ## Device Tree
 ```
@@ -66,7 +67,7 @@ petalinux-build -c device-tree
 ### PL Config
 ```
 cd project-spec/meta-user/recipes-bsp/device-tree/files
-nano system-user.dtsi
+micro system-user.dtsi
 ```
 ```
 /include/ "system-conf.dtsi"
@@ -93,7 +94,7 @@ nano system-user.dtsi
 ### U-boot Config
 ```
 cd project-spec/meta-user/recipes-bsp/u-boot/files
-nano platform-top.h
+micro platform-top.h
 ```
 ```
 #define CONFIG_NR_DRAM_BANKS 3

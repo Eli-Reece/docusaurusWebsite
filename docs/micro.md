@@ -1,4 +1,4 @@
-# Micro Keys
+# Micro Shortcuts
 ## Power user
 
 | Key       | Description of function                                                                           |
