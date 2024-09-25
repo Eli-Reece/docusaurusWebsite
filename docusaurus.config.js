@@ -56,6 +56,7 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          
         ],
       },
       colorMode: {
