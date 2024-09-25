@@ -18,6 +18,7 @@
     "@algolia/autocomplete-shared": "^1.17.4",
     "@algolia/client-search": "^5.6.0",
     "@docusaurus/core": "^3.5.2",
+    "@docusaurus/plugin-debug": "^3.5.2",
     "@docusaurus/preset-classic": "^3.5.2",
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.0",
@@ -28,10 +29,14 @@
     "@mui/styled-engine": "^5.15.14",
     "@rollup/plugin-inject": "^5.0.5",
     "@types/react": "^18.3.9",
+    "algoliasearch": "^5.6.0",
     "clsx": "^2.0.0",
     "prism-react-renderer": "^2.3.0",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "react-loadable": "^5.5.0",
+    "search-insights": "^2.17.2",
+    "typescript": "^5.6.2"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^3.5.2",
