@@ -31,7 +31,7 @@ function HomepageHeader() {
         </Box>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons} style={{ display: 'flex', justifyContent: 'center', gap: '15px' }}>
-            <Link className="button button--secondary button--lg" to="/docs/bash" style={{width: '150px'}}>
+            <Link className="button button--secondary button--lg" to="/docs/Welcome" style={{width: '150px'}}>
                 Blog
             </Link>
             <Link className="button button--secondary button--lg" href={require('/static/resume.pdf').default} target="_blank" rel="noopener noreferrer" style={{width: '150px'}}>
