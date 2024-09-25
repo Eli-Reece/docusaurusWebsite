@@ -50,7 +50,7 @@ const config = {
       navbar: {
         title: 'Elisha Reece',
         items: [
-          {to: '/docs/bash', label: 'Blog', position: 'right'},
+          {to: '/docs/Welcome', label: 'Blog', position: 'right'},
           {
             href: 'https://github.com/Eli-Reece',
             label: 'GitHub',
